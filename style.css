@@ -36,11 +36,34 @@ body {
 .note .tools {
     background-color: #9ec862;
     display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
 }
 
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note .main {
+    background-color: #eee;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.note textarea
+
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin: 50px 0px 10px;
+    margin: 10px auto;
 }
 
 footer p .love {
