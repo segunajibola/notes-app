@@ -31,7 +31,6 @@ function addNewNote(text = " ") {
 
     const editBtn = note.querySelector(".edit");
     const deleteBtn = note.querySelector(".delete");
-
     const main = note.querySelector(".main");
     const textArea = note.querySelector("textarea");
 
