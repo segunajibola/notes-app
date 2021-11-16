@@ -1,7 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -56,12 +56,23 @@ body {
     width: 100%;
 }
 
-.note textarea
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+}
+
+.note .hidden {
+    display: none;
+}
 
 footer {
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     text-align: center;
     margin: 10px auto;
 }
