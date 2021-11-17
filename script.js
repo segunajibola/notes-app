@@ -16,17 +16,19 @@ function addNewNote(text = " ") {
     note.classList.add("note");
 
     note.innerHTML = `
-        <div class="note">
+        <div class="notes">
             <div class="tools">
                 <button class="edit"><i class="fas fa-edit"</i></button>
+
                 <button class="delete"><i class="fas fa-trash-alt"</i></button>
             </div>
             <div class="main ${text ? "" : "hidden"}"></div>
             <textarea class="main ${text ? "hidden" : ""}"></textarea>
+            <footer>
+                <p>Built with <span class="love">&#9829</span> by Segun Ajibola</p>
+            </footer>
         </div>
-        <footer>
-            <p>Built with <span class="love">&#9829</span> by Segun Ajibola</p>
-        </footer>
+        
     `;
 
     const editBtn = note.querySelector(".edit");
